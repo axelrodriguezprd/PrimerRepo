@@ -10,4 +10,4 @@ res = 0
 for num in range(num1, num2 + 1):
     res += num
 
-print(res)
+print(f"El resultado de la suma es: {res}")
