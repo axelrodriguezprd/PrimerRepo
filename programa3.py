@@ -39,4 +39,6 @@ while switch_menu == True:
     elif opcion_usuario == "A":
         print("Saliendo del programa...")
         switch_menu = False
-        
+    
+    else: 
+        print("Digite una opcion valida")
