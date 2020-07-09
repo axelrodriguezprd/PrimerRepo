@@ -5,10 +5,9 @@ Imprimir el resultado de la suma
 
 num1 = int(input("Ingresa un número entero: "))
 num2 = int(input("Ingresa otro número entero: "))
-num2 += 1
 res = 0
 
-for num in range(num1, num2):
+for num in range(num1, num2 + 1):
     res += num
 
 print(res)
